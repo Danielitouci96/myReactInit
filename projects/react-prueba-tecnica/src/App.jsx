@@ -1,34 +1,16 @@
-
-import { useState, useEffect } from 'react'
 import './App.css'
-import { getRandomnFact } from "./services/facts";
 
-//const CAT_ENDPOINT_IMAGE_URL = `https://cataas.com/cat/says/${firstword}?size=50&color=red&json=true`
-const PREFIX_IMG_URL = 'https://cataas.com'
+import { useCatImage } from "./hooks/useCatImage";
+import { useCatFact } from "./hooks/useCatFact";
+
+
 export function App() {
-  const [fact, setFact] = useState('')
-  const [imageUrl, setImageUrl] = useState('')
+  const { fact, refreshRamdonFact } = useCatFact()
+  const { imageUrl } = useCatImage({ fact })
 
 
-  useEffect(() => {
-    getRandomnFact().then(newFact => setFact(newFact));
-  }, [])
-
-  useEffect(() => {
-    if(!fact) return 
-    const firstWord = fact.split(' ', 3).join(' ')
-
-        /* fetch(`https://cataas.com/cat/says/${firstWord}?font=Impact&fontSize=30&fontColor=%23fff&fontBackground=none&position=top&json=false`) */
-        fetch(`https://cataas.com/cat/says/${firstWord}?size=50&color=red&json=true`)
-          .then(response => response.json())
-          .then(data => {
-            setImageUrl(data);
-          })
-  },[fact])
-
-  const handlerClick = async () =>{
-    const newFact = await getRandomnFact();
-    setFact(newFact);
+  const handlerClick = async () => {
+    refreshRamdonFact()
   }
 
   return (
@@ -37,7 +19,7 @@ export function App() {
 
       <button onClick={handlerClick}>New Fact</button>
       {fact && <p>{fact}</p>}
-      {imageUrl && <img src={ `${PREFIX_IMG_URL}${imageUrl}` } alt="gatito" />}
+      {imageUrl && <img width={300} height={300} src={`${imageUrl}`} alt="gatito" />}
     </main>
   )
 }
