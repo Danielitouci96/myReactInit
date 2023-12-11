@@ -1,0 +1,76 @@
+{
+    "Search": [
+        {
+            "Title": "Amazon Women on the Moon",
+            "Year": "1987",
+            "imdbID": "tt0092546",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZDJhMDU0OWQtM2QwNS00ODZhLWE2MDctNzdhYmNiZGI4OTdlXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Hercules and the Amazon Women",
+            "Year": "1994",
+            "imdbID": "tt0110015",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZjNiOTVjNTItNzFiZC00ZDk5LTkzYzctMWQ2MDcxMmUxZjZjXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Fire on the Amazon",
+            "Year": "1993",
+            "imdbID": "tt0106913",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTcwOTY0MDUzNV5BMl5BanBnXkFtZTgwNzM2MzUzMzE@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Amazon Queen",
+            "Year": "2021",
+            "imdbID": "tt13223248",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BOWUwMzEwZDItZTMwNi00MTBjLTk0ZjAtYmM1NjAzYWQ0MGE1XkEyXkFqcGdeQXVyNzIyMTU5Mg@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Amazon Obhijaan",
+            "Year": "2017",
+            "imdbID": "tt5125414",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNGI4MGQ4MzktOTE1Yy00ZmFlLTgxZGYtNzUyOWQ0NWZlNTVhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Amazon Hot Box",
+            "Year": "2018",
+            "imdbID": "tt8178992",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZmE5MDU4NGUtNTVhYS00NjUzLTg0MDMtZWZmMjAxOGE4MDk0XkEyXkFqcGdeQXVyMjY0NDQzNw@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Amazon",
+            "Year": "2013",
+            "imdbID": "tt1240899",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMjE0MDgyODU3OF5BMl5BanBnXkFtZTgwMjYzMTIyMDI@._V1_SX300.jpg"
+        },
+        {
+            "Title": "First Contact: Lost Tribe of the Amazon",
+            "Year": "2016",
+            "imdbID": "tt5494870",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMDI5NDA5OWUtZmZjMi00OTg0LWFlMmEtNWUzYTllN2UxZDczXkEyXkFqcGdeQXVyNjU3NjM5OTc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Treasure of the Amazon",
+            "Year": "1985",
+            "imdbID": "tt0090200",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMmZjMDg2Y2UtZWM2Ni00NmMwLThkOTUtZmYxNWQ0Y2I5ZDgwXkEyXkFqcGdeQXVyMTE5MTEzODI0._V1_SX300.jpg"
+        },
+        {
+            "Title": "Amazon Jail",
+            "Year": "1985",
+            "imdbID": "tt0088703",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZjJkODhjMzAtNzQ2NC00YzVhLTk0MmYtYTc5NDBhYzI0MjJjXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_SX300.jpg"
+        }
+    ],
+    "totalResults": "243",
+    "Response": "True"
+}
